@@ -40,7 +40,7 @@ export default function CompletionPage() {
         { error && <p className="text-red-500 mb-4">{error}</p> }
 
         { isLoading ? (
-            <p>is loading...</p>
+            <p>Loading...</p>
         ) : completion ? (
             <p>{completion}</p>
         ) : null }
